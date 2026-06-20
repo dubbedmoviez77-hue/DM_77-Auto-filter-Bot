@@ -16,7 +16,7 @@ def is_enabled(value, default):
 
 # ============================
 # Bot Information Configuration
-# ============================
+# ============================ 
 SESSION = environ.get('SESSION', 'RJ_JAYU_MOVIE_SEARCH')   # Session name for the bot
 API_ID = int(environ.get('API_ID', '38804995')) # API ID from my.telegram.org
 API_HASH = environ.get('API_HASH', '23cda48afb7aac7f1704ab12ac97ec65')  # API Hash from my.telegram.org
